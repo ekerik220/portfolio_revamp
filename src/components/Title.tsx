@@ -14,7 +14,7 @@ const Container = styled.div`
   display: flex;
   margin-top: 20px;
   font-size: 72px;
-  font-family: monospace;
+  font-family: ${({ theme }) => theme.secondaryFontFamily};
   color: ${({ theme }) => theme.colors.primaryColor};
 
   &::before {
