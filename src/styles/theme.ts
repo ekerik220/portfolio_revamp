@@ -1,6 +1,5 @@
 export const theme = {
-  fontFamily:
-    'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
+  fontFamily: "Roboto, sans-serif",
   colors: {
     mainBackground: "#f6f9fc",
     primaryColor: "#747fe0",
