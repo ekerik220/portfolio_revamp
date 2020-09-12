@@ -1,5 +1,6 @@
 export const theme = {
-  fontFamily: "Roboto, sans-serif",
+  fontFamily: "Open Sans, sans-serif",
+  secondaryFontFamily: "monospace",
   colors: {
     mainBackground: "#f6f9fc",
     primaryColor: "#747fe0",
