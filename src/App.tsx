@@ -11,5 +11,7 @@ export default function App() {
 }
 
 const MainContainer = styled.div`
-  padding: 0 15px;
+  padding: 0 40px;
+  margin: 0 auto;
+  max-width: 1000px;
 `;
