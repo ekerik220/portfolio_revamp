@@ -31,11 +31,20 @@ const Container = styled.div`
 
 const LinkArea = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 770px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const Divider = styled.div`
   &::before {
     content: "||";
     margin: 0 25px;
+  }
+
+  @media only screen and (max-width: 770px) {
+    visibility: hidden;
   }
 `;
