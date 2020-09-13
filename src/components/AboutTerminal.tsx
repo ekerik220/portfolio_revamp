@@ -16,9 +16,22 @@ export default function AboutTerminal() {
 
         <TerminalInputText>Evan.contactInfo</TerminalInputText>
         <TerminalReturnText>
-          ["<TerminalLink href="#">ekerik220@gmail.com</TerminalLink>", "
-          <TerminalLink href="#">LinkedIn</TerminalLink>", "
-          <TerminalLink href="#">github</TerminalLink>"]
+          ["
+          <TerminalLink href="mailto:ekerik220@gmail.com">
+            ekerik220@gmail.com
+          </TerminalLink>
+          ", "
+          <TerminalLink
+            href="https://www.linkedin.com/in/evan-kerik/"
+            target="_blank"
+          >
+            LinkedIn
+          </TerminalLink>
+          ", "
+          <TerminalLink href="https://github.com/ekerik220" target="_blank">
+            github
+          </TerminalLink>
+          "]
         </TerminalReturnText>
 
         <TerminalInputText>Evan.resume</TerminalInputText>

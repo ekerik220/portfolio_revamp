@@ -10,7 +10,7 @@ interface PropTypes extends React.HTMLAttributes<HTMLAnchorElement> {
 
 export default function Button({ href, type, ...rest }: PropTypes) {
   return (
-    <Container type={type} href={href} {...rest}>
+    <Container type={type} href={href} {...rest} target="_blank">
       {type === "live-demo" ? "Live Demo" : "View Source"}
       {type === "live-demo" ? <StyledExternalLinkIcon /> : <StyledGithubIcon />}
     </Container>

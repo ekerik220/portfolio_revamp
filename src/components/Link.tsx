@@ -4,12 +4,13 @@ import styled from "styled-components";
 interface PropTypes extends React.HTMLAttributes<HTMLAnchorElement> {
   fontSize?: number;
   href: string;
+  newTab?: boolean;
 }
 
-export default function Link({ href, children, ...rest }: PropTypes) {
+export default function Link({ href, newTab, children, ...rest }: PropTypes) {
   return (
     <Container>
-      <LinkText href={href} {...rest}>
+      <LinkText href={href} {...rest} target={newTab ? "_blank" : undefined}>
         {children}
       </LinkText>
       <Underline />

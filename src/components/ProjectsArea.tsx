@@ -6,7 +6,7 @@ import SectionTitle from "./SectionTitle";
 export function ProjectsArea() {
   return (
     <Container>
-      <SectionTitle>Projects</SectionTitle>
+      <SectionTitle id="projects-area">Projects</SectionTitle>
       <ProjectTile
         title="Twatter"
         description="A Twitter clone. As a personal challenge I've tried to make a Twitter

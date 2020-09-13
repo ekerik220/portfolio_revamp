@@ -5,7 +5,7 @@ export default function SectionTitle(
   props: React.HTMLAttributes<HTMLHeadingElement>
 ) {
   return (
-    <Container>
+    <Container id={props.id}>
       <Section>{props.children}</Section>
       <Underline />
     </Container>

@@ -25,8 +25,8 @@ export default function ProjectTile(props: PropTypes) {
           ))}
         </SkillsArea>
         <ButtonArea>
-          <StyledButton type="live-demo" href="#" />
-          <StyledButton type="view-source" href="#" />
+          <StyledButton type="live-demo" href={props.url} />
+          <StyledButton type="view-source" href={props.sourceURL} />
         </ButtonArea>
       </ProjectContent>
     </Container>

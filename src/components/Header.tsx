@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <Container>
       <Nav>
-        <Link href="#">Projects</Link>
-        <Link href="#">Contact</Link>
+        <Link href="#projects-area">Projects</Link>
+        <Link href="#contact-area">Contact</Link>
       </Nav>
     </Container>
   );

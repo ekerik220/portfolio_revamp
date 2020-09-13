@@ -6,13 +6,17 @@ import Link from "./Link";
 export default function ContactArea() {
   return (
     <Container>
-      <SectionTitle>Contact me!</SectionTitle>
+      <SectionTitle id="contact-area">Contact me!</SectionTitle>
       <LinkArea>
-        <Link href="#">ekerik220@gmail.com</Link>
+        <Link href="mailto:ekerik220@gmail.com">ekerik220@gmail.com</Link>
         <Divider />
-        <Link href="#">LinkedIn</Link>
+        <Link href="https://www.linkedin.com/in/evan-kerik/" newTab>
+          LinkedIn
+        </Link>
         <Divider />
-        <Link href="#">GitHub</Link>
+        <Link href="https://github.com/ekerik220" newTab>
+          GitHub
+        </Link>
       </LinkArea>
     </Container>
   );

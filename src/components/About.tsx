@@ -7,7 +7,7 @@ export default function About() {
       I'm a web developer with a passion for building simple, beautiful user
       experiences.
       <br />
-      Check out my <Link href="#">side-projects</Link> below.
+      Check out my <Link href="#projects-area">side-projects</Link> below.
     </Container>
   );
 }
