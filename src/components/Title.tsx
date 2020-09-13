@@ -21,6 +21,10 @@ const Container = styled.div`
     content: ">";
     margin-right: 35px;
   }
+
+  @media only screen and (max-width: 770px) {
+    font-size: 38px;
+  }
 `;
 
 const blink = keyframes`
@@ -34,4 +38,9 @@ const BlinkingCursor = styled.div`
   background: ${({ theme }) => theme.colors.primaryColor};
   margin-left: 7px;
   animation: ${blink} 1s linear infinite;
+
+  @media only screen and (max-width: 770px) {
+    height: 46px;
+    width: 22px;
+  }
 `;

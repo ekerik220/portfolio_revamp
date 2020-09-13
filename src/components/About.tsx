@@ -16,6 +16,12 @@ const Container = styled.div`
   font-size: 21px;
   padding: 80px 0;
   line-height: 40px;
+
+  @media only screen and (max-width: 770px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 19px;
+  }
 `;
 
 const Link = styled.a`
