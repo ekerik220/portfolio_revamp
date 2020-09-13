@@ -84,6 +84,10 @@ const ProjectContent = styled.div`
   @media only screen and (max-width: 1025px) {
     width: 100%;
   }
+
+  @media only screen and (max-width: 480px) {
+    padding: 35px;
+  }
 `;
 
 const Title = styled.h3`
@@ -101,6 +105,7 @@ const Description = styled.p`
 
 const SkillsArea = styled.div`
   display: flex;
+  flex-wrap: wrap;
   margin: 20px 0;
 `;
 
@@ -115,8 +120,14 @@ const Skill = styled.span`
 
 const ButtonArea = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const StyledButton = styled(Button)`
   margin-right: 10px;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 420px) {
+    margin-bottom: 15px;
+  }
 `;
