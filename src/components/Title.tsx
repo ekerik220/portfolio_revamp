@@ -5,13 +5,12 @@ export default function Title() {
   return (
     <Container>
       Evan Kerik
-      <BlinkingCursor />
+      <BlinkingCursor>_</BlinkingCursor>
     </Container>
   );
 }
 
 const Container = styled.div`
-  display: flex;
   margin-top: 20px;
   font-size: 72px;
   font-family: ${({ theme }) => theme.secondaryFontFamily};
@@ -32,15 +31,8 @@ const blink = keyframes`
     51%, 100% { opacity: 0.75 }
 `;
 
-const BlinkingCursor = styled.div`
-  width: 43px;
-  height: 91px;
+const BlinkingCursor = styled.span`
   background: ${({ theme }) => theme.colors.primaryColor};
-  margin-left: 7px;
   animation: ${blink} 1s linear infinite;
-
-  @media only screen and (max-width: 770px) {
-    height: 46px;
-    width: 22px;
-  }
+  user-select: none;
 `;

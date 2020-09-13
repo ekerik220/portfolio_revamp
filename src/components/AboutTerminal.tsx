@@ -56,7 +56,7 @@ export default function AboutTerminal() {
         </TerminalReturnText>
 
         <TerminalInputText>
-          <BlinkingCursor />
+          <BlinkingCursor>_</BlinkingCursor>
         </TerminalInputText>
       </TerminalBody>
     </Container>
@@ -129,9 +129,8 @@ const blink = keyframes`
     51%, 100% { opacity: 0.75 }
 `;
 
-const BlinkingCursor = styled.div`
-  width: 10px;
-  height: 20px;
+const BlinkingCursor = styled.span`
   background: ${({ theme }) => theme.terminal.inputTextColor};
   animation: ${blink} 1s linear infinite;
+  user-select: none;
 `;
