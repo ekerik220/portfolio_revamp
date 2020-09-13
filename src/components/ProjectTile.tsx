@@ -43,6 +43,10 @@ const Container = styled.div`
     0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   margin-bottom: 60px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 const ProjectImage = styled.img`
