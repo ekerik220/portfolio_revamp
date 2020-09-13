@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SectionTitle from "./SectionTitle";
 import Link from "./Link";
 
-export default function Contactarea() {
+export default function ContactArea() {
   return (
     <Container>
       <SectionTitle>Contact me!</SectionTitle>

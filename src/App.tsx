@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import About from "./components/About";
 import AboutTerminal from "./components/AboutTerminal";
 import { ProjectsArea } from "./components/ProjectsArea";
-import Contactarea from "./components/ContactArea";
+import ContactArea from "./components/ContactArea";
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
       <About />
       <AboutTerminal />
       <ProjectsArea />
-      <Contactarea />
+      <ContactArea />
     </MainContainer>
   );
 }
