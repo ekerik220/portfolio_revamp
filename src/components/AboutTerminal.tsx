@@ -36,7 +36,14 @@ export default function AboutTerminal() {
 
         <TerminalInputText>Evan.resume</TerminalInputText>
         <TerminalReturnText>
-          "<TerminalLink href="#">evan_kerik.pdf</TerminalLink>"
+          "
+          <TerminalLink
+            href="https://drive.google.com/file/d/1EMJEtm4Eo1QU5pKo0Q4x6T6NMIqVvCZM/view"
+            target="_blank"
+          >
+            evan_kerik.pdf
+          </TerminalLink>
+          "
         </TerminalReturnText>
 
         <TerminalInputText>Evan.interests</TerminalInputText>
